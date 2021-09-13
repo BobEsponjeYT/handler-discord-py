@@ -4,7 +4,7 @@ import asyncio
 from handlers.commands import *
 from handlers.events import *
 
-bot = commands.Bot(command_prefix="!")
+bot = commands.Bot(command_prefix="!", help_command=None)
 
 @bot.event
 async def on_ready():
