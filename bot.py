@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands, tasks
 import asyncio
-from handlers.commands import *
+from handlers.commands import example1
 from handlers.events import *
 
 bot = commands.Bot(command_prefix="!", help_command=None)
