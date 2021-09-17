@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands, tasks
 import asyncio
 from handlers.commands import example1
-from handlers.events import *
+from handlers.events import command_error
 
 bot = commands.Bot(command_prefix="!", help_command=None)
 
